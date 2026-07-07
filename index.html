@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Remi Ytterdahl | Frontend Developer Student</title>
+
+  <meta
+    name="description"
+    content="Portfolio for Remi Ytterdahl, a frontend developer student from Norway with a background in digital marketing."
+  />
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="#home" class="logo" aria-label="Go to homepage">
+        <span>RY</span>
+        <p>Remi Ytterdahl</p>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#about" data-i18n="navAbout">About</a></li>
+        <li><a href="#projects" data-i18n="navProjects">Projects</a></li>
+        <li><a href="#in-progress" data-i18n="navInProgress">In Progress</a></li>
+        <li><a href="#skills" data-i18n="navSkills">Skills</a></li>
+        <li><a href="#cv" data-i18n="navCv">CV</a></li>
+        <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+      </ul>
+
+      <button class="language-toggle" type="button" data-language-toggle>
+        NO
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow" data-i18n="heroEyebrow">Hi, I'm Remi</p>
+
+          <h1 data-i18n="heroTitle">Frontend Developer Student</h1>
+
+          <p class="hero-description" data-i18n="heroDescription">
+            With a background in digital marketing, I build responsive,
+            user-focused and modern web experiences.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" data-i18n="viewProjects">
+              View Projects
+            </a>
+
+            <a href="assets/cv/remi-cv.pdf" class="btn btn-secondary" download data-i18n="downloadCv">
+              Download CV
+            </a>
+          </div>
+
+          <div class="social-links" aria-label="Social links">
+            <a href="https://github.com/remiytter" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/remi-ytterdahl/" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:remiytter@hotmail.com" aria-label="Send email">Email</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="hero-glow"></div>
+          <div class="hero-image-card">
+            <img
+              src="assets/images/profile.jpg"
+              alt="Portrait of Remi Ytterdahl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <article class="section-card about-card">
+          <p class="section-label" data-i18n="aboutLabel">About me</p>
+
+          <h2 data-i18n="aboutTitle">Frontend, creativity and user experience.</h2>
+
+          <p data-i18n="aboutTextOne">
+            I’m a frontend development student from Norway with a bachelor’s
+            degree in Digital Marketing. I enjoy combining creativity,
+            problem-solving and user understanding to build intuitive web
+            experiences.
+          </p>
+
+          <p data-i18n="aboutTextTwo">
+            My background in marketing has made me especially interested in how
+            design, content and technology work together to affect the user
+            experience.
+          </p>
+        </article>
+
+        <div class="info-grid">
+          <article class="info-card">
+            <span>🎓</span>
+            <h3 data-i18n="educationTitle">Education</h3>
+            <p data-i18n="educationText">Frontend Development Student</p>
+          </article>
+
+          <article class="info-card">
+            <span>💼</span>
+            <h3 data-i18n="backgroundTitle">Background</h3>
+            <p data-i18n="backgroundText">Bachelor in Digital Marketing</p>
+          </article>
+
+          <article class="info-card">
+            <span>📍</span>
+            <h3 data-i18n="locationTitle">Location</h3>
+            <p data-i18n="locationText">Norway</p>
+          </article>
+
+          <article class="info-card">
+            <span>🚀</span>
+            <h3 data-i18n="focusTitle">Focus</h3>
+            <p data-i18n="focusText">Frontend Development & UX</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-label" data-i18n="projectsLabel">Featured Projects</p>
+            <h2 data-i18n="projectsTitle">Selected school projects</h2>
+          </div>
+
+          <a href="#projects" class="section-link" data-i18n="viewAllProjects">
+            View all projects →
+          </a>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="assets/images/rainydays.jpg" alt="RainyDays project screenshot" />
+
+            <div class="project-content">
+              <div class="project-meta">
+                <span>School Project</span>
+                <span>Improved</span>
+              </div>
+
+              <h3>RainyDays</h3>
+
+              <p data-i18n="rainydaysDescription">
+                Responsive e-commerce website for rain jackets, improved with a
+                mobile hamburger menu.
+              </p>
+
+              <p class="project-focus" data-i18n="rainydaysFocus">
+                Focus: Mobile navigation, responsive layout and usability.
+              </p>
+
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <a 
+                href="https://remiytter.github.io/html-css-RemiYtterdahl/"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="liveSite"
+              >
+                Live Site
+              </a>
+
+              <a 
+                href="https://github.com/remiytter/html-css-RemiYtterdahl"
+                class="project-link project-link-secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="github"
+              >
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/gamehub.jpg" alt="GameHub project screenshot" />
+
+            <div class="project-content">
+              <div class="project-meta">
+                <span>School Project</span>
+                <span>API</span>
+              </div>
+
+              <h3>GameHub</h3>
+
+              <p data-i18n="gamehubDescription">
+                Online game store with API integration, cart functionality and
+                unique product pages.
+              </p>
+
+              <p class="project-focus" data-i18n="gamehubFocus">
+                Focus: API integration, cart functionality and product detail pages.
+              </p>
+
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>API</span>
+              </div>
+
+              <a 
+                href="https://remiytter.github.io/CA-javascript/"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="liveSite"
+              >
+                Live Site
+              </a>
+
+              <a 
+                href="https://github.com/remiytter/CA-javascript"
+                class="project-link project-link-secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="github"
+              >
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="assets/images/museum.jpg"
+              alt="Community Science Museum project screenshot"
+            />
+
+            <div class="project-content">
+              <div class="project-meta">
+                <span>School Project</span>
+                <span>Accessibility</span>
+              </div>
+
+              <h3>Community Science Museum</h3>
+
+              <p data-i18n="museumDescription">
+                Responsive museum website focused on visual consistency,
+                accessibility and clear navigation.
+              </p>
+
+              <p class="project-focus" data-i18n="museumFocus">
+                Focus: Visual consistency, accessibility and responsive design.
+              </p>
+
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+
+              <a 
+                href="https://remiytter.github.io/semester-project1_Remi-Ytterdahl/"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="liveSite"
+              >
+                Live Site
+              </a>
+
+              <a 
+                href="https://github.com/remiytter/semester-project1_Remi-Ytterdahl"
+                class="project-link project-link-secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="github"
+              >
+                GitHub
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="in-progress" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-label" data-i18n="progressLabel">In Progress</p>
+            <h2 data-i18n="progressTitle">Projects I’m currently building</h2>
+          </div>
+        </div>
+
+        <div class="progress-grid">
+          <article class="progress-card">
+            <div class="progress-card-top">
+              <div class="progress-icon">🎮</div>
+              <span class="status">In Progress</span>
+            </div>
+
+            <div>
+              <h3>Gamepile</h3>
+
+              <p data-i18n="gamepileDescription">
+                A Letterboxd-inspired platform for gaming where users can rate games,
+                create lists, track backlog and follow activity from other users.
+              </p>
+
+              <div class="mini-tags">
+                <span>React</span>
+                <span>Supabase</span>
+                <span>API</span>
+                <span>UX</span>
+              </div>
+
+              <p class="next-step" data-i18n="gamepileNextStep">
+                Next step: Build authentication, game detail pages and user profiles.
+              </p>
+            </div>
+          </article>
+
+          <article class="progress-card">
+            <div class="progress-card-top">
+              <div class="progress-icon">🍱</div>
+              <span class="status status-planning">Planning</span>
+            </div>
+
+            <div>
+              <h3>Meal Prep Planner</h3>
+
+              <p data-i18n="mealprepDescription">
+                A meal prep web app where users can browse recipes with calories,
+                macros, ingredients, portions and preparation steps.
+              </p>
+
+              <div class="mini-tags">
+                <span>JavaScript</span>
+                <span>Data</span>
+                <span>Filters</span>
+                <span>UX</span>
+              </div>
+
+              <p class="next-step" data-i18n="mealprepNextStep">
+                Next step: Plan the recipe data structure, macro filters and recipe card layout.
+              </p>
+            </div>
+          </article>
+
+          <article class="progress-card">
+            <div class="progress-card-top">
+              <div class="progress-icon">🎬</div>
+              <span class="status">In Progress</span>
+            </div>
+
+            <div>
+              <h3>Digital Film Shelf</h3>
+
+              <p data-i18n="filmshelfDescription">
+                A personal film collection app where users can log in, add movies,
+                upload cover images and organize their collection.
+              </p>
+
+              <div class="mini-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Supabase</span>
+              </div>
+
+              <p class="next-step" data-i18n="filmshelfNextStep">
+                Next step: Improve edit/delete flow and polish the collection UI.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-label" data-i18n="skillsLabel">Skills & Tools</p>
+            <h2 data-i18n="skillsTitle">Technologies I work with</h2>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">HTML</article>
+          <article class="skill-card">CSS</article>
+          <article class="skill-card">JavaScript</article>
+          <article class="skill-card">React</article>
+          <article class="skill-card">Supabase</article>
+          <article class="skill-card">GitHub</article>
+          <article class="skill-card">Figma</article>
+          <article class="skill-card">API</article>
+          <article class="skill-card">VS Code</article>
+        </div>
+      </div>
+    </section>
+
+    <section id="cv" class="section">
+      <div class="container">
+        <article class="section-card cv-card">
+          <p class="section-label" data-i18n="cvLabel">CV</p>
+          <h2 data-i18n="cvTitle">Want a quick overview?</h2>
+          <p data-i18n="cvText">
+            You can download my CV to see my education, experience and relevant
+            projects.
+          </p>
+
+          <a href="assets/cv/remi-cv.pdf" class="btn btn-primary" download data-i18n="downloadCv">
+            Download CV
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-label" data-i18n="contactLabel">Contact</p>
+          <h2 data-i18n="contactTitle">Let’s connect</h2>
+          <p data-i18n="contactText">
+            I’m open to frontend opportunities, internships and projects where I
+            can keep learning and contribute.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:remiytter@hotmail.com">remiytter@hotmail.com</a>
+          <a href="https://www.linkedin.com/in/remi-ytterdahl/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/remiytter" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p data-i18n="footerText">© 2026 Remi Ytterdahl. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
