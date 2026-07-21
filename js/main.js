@@ -64,9 +64,9 @@ const translations = {
       "Next step: Build authentication, game detail pages and user profiles.",
 
     mealprepDescription:
-      "A meal prep web app where users can browse recipes with calories, macros, ingredients, portions and preparation steps.",
+      "A meal prep web app where users can browse recipes and setup plan with calories, macros, ingredients, portions and preparation steps.",
     mealprepNextStep:
-      "Next step: Plan the recipe data structure, macro filters and recipe card layout.",
+      "Next step: Fix bugs and listen to feedback.",
 
     filmshelfDescription:
       "A personal film collection app where users can log in, add movies, upload cover images and organize their collection.",
@@ -148,9 +148,9 @@ const translations = {
       "Neste steg: Bygge innlogging, spillsider og brukerprofiler.",
 
     mealprepDescription:
-      "En meal prep-nettside der brukere kan bla gjennom oppskrifter med kalorier, makroer, ingredienser, porsjoner og fremgangsmåte.",
+      "En meal prep-nettside der brukere kan bla gjennom oppskrifter og sette opp en plan med kalorier, makroer, ingredienser, porsjoner og fremgangsmåte.",
     mealprepNextStep:
-      "Neste steg: Planlegge datastruktur for oppskrifter, makrofiltre og oppskriftskort.",
+      "Neste steg: Fikse bugs og se på tilbakemeldinger.",
 
     filmshelfDescription:
       "En personlig filmsamling-app der brukere kan logge inn, legge til filmer, laste opp coverbilder og organisere samlingen sin.",
